@@ -1,8 +1,7 @@
 package tk.samuelhnrq.gera_correio
 
-import javax.swing.JOptionPane
+import tornadofx.launch
 
-fun main() {
-    val janela = FormularioController()
-    janela.isVisible = true
+fun main(args: Array<String>) {
+    launch<App>(args)
 }
